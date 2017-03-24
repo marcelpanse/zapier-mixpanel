@@ -2,7 +2,7 @@
   "name": "zapier-platform-example-app-minimal",
   "version": "1.0.0",
   "description": "Mixpanel integration",
-  "repository": "zapier/zapier-platform-example-app-minimal",
+  "repository": "https://github.com/marcelpanse/zapier-mixpanel",
   "homepage": "https://zapier.com/",
   "author": "Marcel Panse <marcel@instant.cm>",
   "license": "BSD-3-Clause",
