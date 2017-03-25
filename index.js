@@ -3,6 +3,7 @@
 const authentication = require('./authentication')
 
 const track_charge = require('./creates/track_charge')
+const track_event = require('./creates/track_event')
 
 // We can roll up all our behaviors in an App.
 const App = {
@@ -34,7 +35,8 @@ const App = {
 
   // If you want your creates to show up, you better include it here!
   creates: {
-    [track_charge.key]: track_charge
+    [track_charge.key]: track_charge,
+    [track_event.key]: track_event
   }
 }
 
