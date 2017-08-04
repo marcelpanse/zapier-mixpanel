@@ -28,6 +28,8 @@ module.exports = {
 
       const props = Object.assign(bundle.inputData.properties, {distinct_id: bundle.inputData.id});
       mixpanel.track(bundle.inputData.event, props);
+
+      return {}
     }
   }
 };

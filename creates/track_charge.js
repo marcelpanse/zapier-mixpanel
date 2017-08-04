@@ -24,6 +24,7 @@ module.exports = {
     perform: (z, bundle) => {
       const mixpanel = Mixpanel.init(bundle.authData.token)
       mixpanel.people.track_charge(bundle.inputData.id, bundle.inputData.amount);
+      return {}
     }
   }
 };
